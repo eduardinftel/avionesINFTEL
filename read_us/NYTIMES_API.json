@@ -27,8 +27,7 @@ object:
 --------------------------------------------------------
 Usando jQuery.getJSON tendría que crear por lo tanto:
   ----------------------------------------------------
-$.getJSON( "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + ____TERMINO DE BUSQUEDA____ + 
-	"Supermarine+Spitfire&api-key=b1e8bdbc3fa9841be66f9cb3bab690b7%3A4%3A70045411", function( data )
+$.getJSON( "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=Supermarine+Spitfire&api-key=b1e8bdbc3fa9841be66f9cb3bab690b7%3A4%3A70045411", function( data )
 
 Esto me devolverá un objeto JSON con el formato descrito arriba del que tendré que
  coger los datos para actualizar el contenido de la web.	

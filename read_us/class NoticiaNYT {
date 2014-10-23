@@ -1,0 +1,13 @@
+class NoticiaNYT {
+	String web_url;
+	String main;
+	String lead_paragraph;
+	String (o date?) pub_date;
+
+	public NoticiaNYT (String web_url, String main, String lead_paragraph, String pub_date){
+	
+	}
+
+	}
+
+}

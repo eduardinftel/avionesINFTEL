@@ -1,0 +1,410 @@
+{
+    "response": {
+        "meta": {
+            "hits": 36,
+            "time": 14,
+            "offset": 0
+        },
+        "docs": [{
+            "web_url": "http:\/\/india.blogs.nytimes.com\/2011\/09\/20\/dravid-the-hurricane-man\/",
+            "snippet": "Rahul Dravid, you can't help but feel, is the Hawker Hurricane of Indian cricket.",
+            "lead_paragraph": "In the history and mythology of the Second World War, the Battle Of Britain has an important emotional and pivotal role. For around four months through the summer and fall of 1940, a titanic struggle for air supremacy exploded in the air over Britain.",
+            "abstract": "Rahul Dravid, you can't help but feel, is the Hawker Hurricane of Indian cricket.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Dravid, the Hurricane Man",
+                "kicker": "India Ink"
+            },
+            "keywords": [{
+                "value": "England",
+                "name": "glocations",
+                "rank": "4"
+            }, {
+                "value": "Cricket (Game)",
+                "name": "subject",
+                "rank": "3"
+            }, {
+                "value": "Dravid, Rahul",
+                "name": "persons",
+                "rank": "2"
+            }, {
+                "value": "India",
+                "name": "glocations",
+                "rank": "5"
+            }, {
+                "value": "News",
+                "name": "type_of_material",
+                "rank": "1"
+            }],
+            "pub_date": "2011-09-20T06:41:34Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "World",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1,
+                    "firstname": "Sidin",
+                    "lastname": "VADUKUT"
+                }],
+                "original": "By SIDIN VADUKUT"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd3a0fc8eb7c8105d8e70e6",
+            "word_count": 743
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/1998\/05\/20\/world\/man-in-the-news-avul-pakir-jainulabdeen-abdul-kalam-self-made-bomb-maker.html",
+            "snippet": "Among the Indian scientists who successfully detonated five nuclear tests in the northwestern desert last week, none seemed more visibly delighted by the acclaim waiting in New Delhi than Dr. A. P. J. Abdul Kalam. An impish, shaggy-haired bachelor,...",
+            "lead_paragraph": "Among the Indian scientists who successfully detonated five nuclear tests in the northwestern desert last week, none seemed more visibly delighted by the acclaim waiting in New Delhi than Dr. A. P. J. Abdul Kalam. An impish, shaggy-haired bachelor, Dr. Kalam is widely regarded as the central figure in India's drive to join the small club of nuclear-armed nations. Dr. Kalam, 66, has never hidden the passion for a powerful India that has driven him since he was growing up in a poor family on the coast of Tamil Nadu. Among colleagues a new word, ''kalamitous,'' was coined to capture the outspokenness with which Dr. Kalam greeted each new delay in the tests, or in getting the money to develop the missiles to deliver nuclear bombs.",
+            "abstract": "Man-in-the-News profile of 66-year-old Dr Avil Pakir Jainulabdeen Abdul Kalam, widely regarded as father of India's nuclear weapons program who was among scientists who successfully carried out five underground nuclear tests; photo (M)",
+            "print_page": "6",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Man in the News: Avul Pakir Jainulabdeen Abdul Kalam; Self-Made Bomb Maker"
+            },
+            "keywords": [{
+                "name": "persons",
+                "value": "ABDUL KALAM, A P J"
+            }, {
+                "name": "glocations",
+                "value": "INDIA"
+            }, {
+                "name": "subject",
+                "value": "ATOMIC WEAPONS"
+            }, {
+                "name": "subject",
+                "value": "NUCLEAR TESTS"
+            }, {
+                "name": "subject",
+                "value": "BIOGRAPHICAL INFORMATION"
+            }],
+            "pub_date": "1998-05-20T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Foreign Desk",
+            "section_name": "World",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "firstname": "John",
+                    "middlename": "F.",
+                    "lastname": "BURNS",
+                    "rank": 1,
+                    "role": "reported",
+                    "organization": ""
+                }],
+                "original": "By JOHN F. BURNS"
+            },
+            "type_of_material": "Biography",
+            "_id": "4fd1deaf8eb7c8105d7231c6",
+            "word_count": 1065
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/1996\/02\/14\/world\/adolf-galland-top-aviator-for-the-nazis-is-dead-at-83.html",
+            "snippet": "Just before sunrise on Sept. 1, 1939, minutes after the first shots of World  War II were fired by invading German troops, a 27-year-old Luftwaffe pilot began dropping bombs from his Henschel 123 biplane on Polish infantry positions near the frontier...",
+            "lead_paragraph": "Just before sunrise on Sept. 1, 1939, minutes after the first shots of World War II were fired by invading German troops, a 27-year-old Luftwaffe pilot began dropping bombs from his Henschel 123 biplane on Polish infantry positions near the frontier town of Panki. On April 26, 1945, two weeks before the end of the war, the same pilot, flying his last mission in a small formation of Messerschmitt 262's -- the world's first jet combat fighter -- downed a two-engined American Marauder bomber over the Danube.",
+            "abstract": null,
+            "print_page": "20",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Adolf Galland, Top Aviator For the Nazis, Is Dead at 83"
+            },
+            "keywords": [{
+                "name": "persons",
+                "value": "GALLAND, ADOLF"
+            }, {
+                "name": "subject",
+                "value": "AIRLINES AND AIRPLANES"
+            }, {
+                "name": "subject",
+                "value": "BIOGRAPHICAL INFORMATION"
+            }, {
+                "name": "subject",
+                "value": "DEATHS"
+            }, {
+                "name": "subject",
+                "value": "WORLD WAR II (1939-45)"
+            }],
+            "pub_date": "1996-02-14T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Foreign Desk",
+            "section_name": "World; Obituaries",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1,
+                    "firstname": "David",
+                    "lastname": "BINDER"
+                }],
+                "original": "By DAVID BINDER"
+            },
+            "type_of_material": "Obituary; Biography",
+            "_id": "4fd1c22e8eb7c8105d6f1b49",
+            "word_count": 1366
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/1989\/01\/28\/obituaries\/thomas-sopwith-aircraft-pioneer-in-2-world-wars-is-dead-at-101.html",
+            "snippet": "LEAD: Sir Thomas Sopwith, whose companies built the British Sopwith Camel plane of World War I fame, died yesterday at his manor house outside Winchester in southern England. He was 101 years old. His son, Thomas, said he died of old age after a...",
+            "lead_paragraph": "LEAD: Sir Thomas Sopwith, whose companies built the British Sopwith Camel plane of World War I fame, died yesterday at his manor house outside Winchester in southern England. He was 101 years old. His son, Thomas, said he died of old age after a ''marvelous life.'' He was an aircraft designer, yachtsman and aviator as well as an airplane manufacturing executive.",
+            "abstract": null,
+            "print_page": "10",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Thomas Sopwith, Aircraft Pioneer In 2 World Wars, Is Dead at 101"
+            },
+            "keywords": [{
+                "name": "persons",
+                "value": "SOPWITH, THOMAS"
+            }, {
+                "name": "glocations",
+                "value": "GREAT BRITAIN"
+            }, {
+                "name": "subject",
+                "value": "AIRLINES AND AIRPLANES"
+            }, {
+                "name": "subject",
+                "value": "WORLD WAR I (1914-18)"
+            }, {
+                "name": "subject",
+                "value": "MILITARY AIRCRAFT"
+            }, {
+                "name": "subject",
+                "value": "BIOGRAPHICAL INFORMATION"
+            }, {
+                "name": "subject",
+                "value": "DEATHS"
+            }],
+            "pub_date": "1989-01-28T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Obituary",
+            "section_name": "Obituaries",
+            "subsection_name": null,
+            "byline": null,
+            "type_of_material": "Obituary",
+            "_id": "4fd192388eb7c8105d69ae84",
+            "word_count": 651
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/1984\/06\/03\/travel\/travel-advisory-touring-by-horse-and-by-bicyclee.html",
+            "snippet": "  Four Trips Designed For Equestrians Trips to Britain and Ireland focused on Yorkshire, Dartmoor, Edinburgh or Dublin may seem familiar, but this summer there are four such vacations that have a special focus: Each is designed to appeal to...",
+            "lead_paragraph": "Four Trips Designed For Equestrians Trips to Britain and Ireland focused on Yorkshire, Dartmoor, Edinburgh or Dublin may seem familiar, but this summer there are four such vacations that have a special focus: Each is designed to appeal to equestrians, with riding scheduled every day. The July 7-to-14 trip, to the Victorian spa town of Harrogate in Yorkshire, is built around six days of intensive riding at the Harrogate Equestrian Center, including show jumping, dressage, cross-country jumping and hacking, as well as horse management. A second July 7-to-14 trip, beginning in Harrogate, includes sessions at the Equestrian Center, a tour of York, a visit to the Great Yorkshire Show, one of England's largest horse shows and fairs, and two days of riding over scenic countryside. Rides across 200 square miles of moorland in Devon are the feature of the July 14-to-22 trip; the July 28-to-Aug. 4 trip takes place in Scotland and includes lessons, a swim on horseback through a canal, and scenic drives along a route that extends from the vicinity of Inverness to Edinburgh. A trip to Dublin Aug. 4 to 12 has been fully subscribed.",
+            "abstract": null,
+            "print_page": "3",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "TRAVEL ADVISORY: TOURING BY HORSE AND BY BICYCLEE"
+            },
+            "keywords": [{
+                "name": "subject",
+                "value": "TERMS NOT AVAILABLE"
+            }],
+            "pub_date": "1984-06-03T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Travel Desk",
+            "section_name": null,
+            "subsection_name": null,
+            "byline": null,
+            "type_of_material": "News",
+            "_id": "4fd139f38eb7c8105d60e521",
+            "word_count": 1526
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/1981\/01\/11\/travel\/air-force-museum-near-dayton-displays-160-military-planes.html",
+            "snippet": "  -------------------------------------------------------------------- PAUL LANE Jr. is an aerospace engineer and freelance writer. By PAUL LANE Jr.   More than seven decades ago the Wright brothers conducted experimental glider flights on the...",
+            "lead_paragraph": "-------------------------------------------------------------------- PAUL LANE Jr. is an aerospace engineer and freelance writer. By PAUL LANE Jr. More than seven decades ago the Wright brothers conducted experimental glider flights on the Huffman Prairie a few miles northeast of their Dayton, Ohio, bicycle shop. The Air Force Museum now sits amid that flat expanse of land, a memorial to those early flights and a mecca for aviation buffs. Housed in a building reminiscent of a huge World War II Quonset hut, the aircraft, missiles and memorabilia assembled there are the largest and oldest collection of military aviation history in the world.",
+            "abstract": null,
+            "print_page": "9",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "AIR FORCE MUSEUM NEAR DAYTON DISPLAYS 160 MILITARY PLANES"
+            },
+            "keywords": [{
+                "name": "glocations",
+                "value": "DAYTON (OHIO)"
+            }, {
+                "name": "subject",
+                "value": "AIRPLANES"
+            }, {
+                "name": "subject",
+                "value": "AIR FORCES"
+            }, {
+                "name": "subject",
+                "value": "MUSEUMS"
+            }, {
+                "name": "subject",
+                "value": "UNITED STATES ARMAMENT AND DEFENSE"
+            }],
+            "pub_date": "1981-01-11T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Travel Desk",
+            "section_name": "Travel",
+            "subsection_name": null,
+            "byline": null,
+            "type_of_material": "News",
+            "_id": "4fd10ddd8eb7c8105d5c2bb8",
+            "word_count": 958
+        }, {
+            "web_url": "http:\/\/query.nytimes.com\/gst\/abstract.html?res=9402E4D8123CE334BC4B51DFBE66838D669EDE",
+            "snippet": "The ethnic economic tides that have washed Fifth Avenue in recent years, leaving their imprint in the form of branches of Italian boutiques and book stores, outposts of foreign airlines, and skyscraper habitats for petrodollar plutocrats, have left...",
+            "lead_paragraph": "The ethnic economic tides that have washed Fifth Avenue in recent years, leaving their imprint in the form of branches of Italian boutiques and book stores, outposts of foreign airlines, and skyscraper habitats for petrodollar plutocrats, have left one of their latest marks on the block between 43d and 44th Street in the form of the Zen Oriental Book Store.",
+            "abstract": null,
+            "print_page": "40",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "An Oriental Addition to Fifth Avenue",
+                "kicker": "1"
+            },
+            "keywords": [],
+            "pub_date": "1976-08-23T00:00:00Z",
+            "document_type": "article",
+            "news_desk": null,
+            "section_name": null,
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "firstname": "Lawrence",
+                    "middlename": "Van",
+                    "lastname": "GELDER",
+                    "rank": 1,
+                    "role": "reported",
+                    "organization": ""
+                }],
+                "original": "By LAWRENCE VAN GELDER"
+            },
+            "type_of_material": "Article",
+            "_id": "4fc48f5e45c1498b0da57cbb",
+            "word_count": 661
+        }, {
+            "web_url": "http:\/\/query.nytimes.com\/gst\/abstract.html?res=9807E7D6133DEE3ABC4053DFBE66838E679EDE",
+            "snippet": "BRITAIN will not remove a swastika from the tail of a German plane shown on one stamp in an unusual block of six adhesives to be released on Sept. 13. The stamps will commemorate the 25th anniversary of the Battle of Britain.",
+            "lead_paragraph": "BRITAIN will not remove a swastika from the tail of a German plane shown on one stamp in an unusual block of six adhesives to be released on Sept. 13. The stamps will commemorate the 25th anniversary of the Battle of Britain.",
+            "abstract": "UN: 1\u00a2 and 25\u00a2 definitives to be reissued Sept 20; design changed",
+            "print_page": "X17",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Swastika To Stay In Issue"
+            },
+            "keywords": [{
+                "name": "subject",
+                "value": "HUNTING AND TRAPPING"
+            }, {
+                "name": "subject",
+                "value": "STAMPS, COVERS AND CACHETS"
+            }, {
+                "name": "subject",
+                "value": "STAMPS, COVERS AND CACHETS"
+            }, {
+                "name": "subject",
+                "value": "STAMPS, COVERS AND CACHETS"
+            }],
+            "pub_date": "1965-08-08T00:00:00Z",
+            "document_type": "article",
+            "news_desk": null,
+            "section_name": null,
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "David",
+                    "rank": 1,
+                    "lastname": "LIDMAN"
+                }],
+                "original": "By DAVID LIDMAN"
+            },
+            "type_of_material": "Article",
+            "_id": "4fc4201045c1498b0d92f249",
+            "word_count": 1001
+        }, {
+            "web_url": "http:\/\/query.nytimes.com\/gst\/abstract.html?res=9E06E2DA143DE23BBC4E51DFBF668388649EDE",
+            "snippet": "LONDON, Sept. 25 -- The world record for level flight was raised tentatively to 737.3 miles an hour today as the second of a brilliant new team of Royal Air Force jet fighters toppled the mark set earlier this month by the first.",
+            "lead_paragraph": "LONDON, Sept. 25 -- The world record for level flight was raised tentatively to 737.3 miles an hour today as the second of a brilliant new team of Royal Air Force jet fighters toppled the mark set earlier this month by the first.",
+            "abstract": "Supermarine Swift (GB) sets unofficial world speed mark for level flight of 737.3 mph over Libya",
+            "print_page": "4",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "BRITISH PLANE SETS, UNOFFICIAL RECORD; Flies 737.3 Miles an Hour in Runs Over Libyan Desert -- New Try Scheduled"
+            },
+            "keywords": [{
+                "name": "glocations",
+                "value": "GREAT BRITAIN"
+            }, {
+                "name": "subject",
+                "value": "AIRPLANES"
+            }, {
+                "name": "subject",
+                "value": "AIRPLANES"
+            }, {
+                "name": "subject",
+                "value": "RECORDS"
+            }],
+            "pub_date": "1953-09-26T00:00:00Z",
+            "document_type": "article",
+            "news_desk": null,
+            "section_name": null,
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1
+                }],
+                "original": "Special to THE NEW YORK TIMES"
+            },
+            "type_of_material": "Article",
+            "_id": "4fc39f2b45c1498b0d79ded2",
+            "word_count": 413
+        }, {
+            "web_url": "http:\/\/query.nytimes.com\/gst\/abstract.html?res=980CE1DB1339E23BBC4153DFBF668388649EDE",
+            "snippet": "FARNBOROUGH, England, Sept. 8 (UP) -- A helicopter crashed at the big British air show here today.",
+            "lead_paragraph": "FARNBOROUGH, England, Sept. 8 (UP) -- A helicopter crashed at the big British air show here today.",
+            "abstract": "show opens; several pilots make supersonic flights; 6-new delta-wing planes perform; newest version of Vickers Valiant 4-jet bomber shown; helicopter crashes",
+            "print_page": "5",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "HELICOPTER CRASHES AT BRITISH AIR SHOW"
+            },
+            "keywords": [{
+                "name": "glocations",
+                "value": "GREAT BRITAIN"
+            }, {
+                "name": "subject",
+                "value": "HELICOPTERS"
+            }, {
+                "name": "subject",
+                "value": "AIRPLANES"
+            }],
+            "pub_date": "1953-09-09T00:00:00Z",
+            "document_type": "article",
+            "news_desk": null,
+            "section_name": null,
+            "subsection_name": null,
+            "byline": null,
+            "type_of_material": "Article",
+            "_id": "4fc3ab8745c1498b0d7d5e4c",
+            "word_count": 152
+        }]
+    },
+    "status": "OK",
+    "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}
