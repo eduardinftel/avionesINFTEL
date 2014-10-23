@@ -1,0 +1,22 @@
+FORMATO JSON NY TIMES API:
+
+object:
+	response:
+		- meta
+		- docs
+		- facets
+
+---------------------
+
+		docs: 
+			0 -
+			1 - 
+			2 -
+			... (hasta 10)
+
+			n:
+				- web_url (__ENLACE___)
+				- headline:
+					- main (__TITULO__)
+				- lead_paragraph (___TEXTO___)
+				- pub_date (___FECHA___)
