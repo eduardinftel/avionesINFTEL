@@ -1,28 +1,58 @@
 {
    "aviones":[{
-         "nombre": "1998-05-20",
-         "imagen": "http:\/\/www.nytimes.com\/1996\/02\/14\/world\/adolf-galland-top-aviator-for-the-nazis-is-dead-at-83.html",
-         "texto": "Adolf Galland, Top Aviator For the Nazis, Is Dead at 83",
-      },
+         "nombre": "Supermarine Spitfire",
+         "imagen": "avion1.jpg",
+         "texto": " Este avión monoplaza fue utilizado por la Real Fuerza Aérea Británica durante la Segunda Guerra Mundial y por los países aliados."
+       },
       {
-         "nombre": "1998-05-20",
-         "imagen": "http:\/\/www.nytimes.com\/1996\/02\/14\/world\/adolf-galland-top-aviator-for-the-nazis-is-dead-at-83.html",
-         "texto": "Adolf Galland, Top Aviator For the Nazis, Is Dead at 83",
+         "nombre": "F117 Stealth Fighter",
+         "imagen": "avion2",
+         "texto": " Fue construido durante el periodo de la Guerra Fría con la finalidad de volar sin ser detectado."
       },
-      {
-         "nombre": "1998-05-20",
-         "imagen": "http:\/\/www.nytimes.com\/1996\/02\/14\/world\/adolf-galland-top-aviator-for-the-nazis-is-dead-at-83.html",
-         "texto": "Adolf Galland, Top Aviator For the Nazis, Is Dead at 83",
-      },
-      {
-         "nombre": "1998-05-20",
-         "imagen": "http:\/\/www.nytimes.com\/1996\/02\/14\/world\/adolf-galland-top-aviator-for-the-nazis-is-dead-at-83.html",
-         "texto": "Adolf Galland, Top Aviator For the Nazis, Is Dead at 83",
-      },
-      {
-         "nombre": "1998-05-20",
-         "imagen": "http:\/\/www.nytimes.com\/1996\/02\/14\/world\/adolf-galland-top-aviator-for-the-nazis-is-dead-at-83.html",
-         "texto": "Adolf Galland, Top Aviator For the Nazis, Is Dead at 83",
-      },
-      ]
+      
+        { "nombre": "F-22 Raptor",
+         "imagen": "avion3",
+         "texto": "Este es el único avión de combate la velocidad del sonido, sigilo y agilidad, con sensores de fusión en una única nave dominante."
+        },
+      
+         {"nombre": "Messerschmitt ME 109",
+         "imagen": "avion4.jpg",
+         "texto": " Hasta la caída de Normandía fueron producidos 34.000 de estos aviones de combate, de los más temidos durante la Segunda Guerra Mundial."
+         },
+      
+     {
+         "nombre": "DR 1 Fokker Triplane",
+         "imagen": "avion5.jpg",
+         "texto": "Este fue uno de los aviones de combate más famosos durante la Primera Guerra Mundial, incorporaba ametralladoras cuyos disparos no chocaban con las hélices."
+     },{
+   
+         "nombre": "DR 1 Fokker Triplane",
+         "imagen": "avion6.jpg",
+         "texto": "Este fue uno de los aviones de combate más famosos durante la Primera Guerra Mundial, incorporaba ametralladoras cuyos disparos no chocaban con las hélices."
+         
+     },{
+         
+         "nombre": "F 86 Sabre",
+         "imagen": "avion7.jpg",
+         "texto": " Otro avión de caza a reacción utilizado por la Fuerza Aérea de los Estados Unidos, particularmente famoso por sus enfrentamientos con el Mikoyan-Gurevich MiG-15 durante la Guerra de Corea."
+   
+   
+    },{
+         
+         "nombre": "AV-8B Harrier II",
+         "imagen": "avion8.jpg",
+         "texto": " Esta aeronave es una combinación entre un avión de combate convencional y un helicóptero. Puede despegar de forma vertical desde una plataforma." 
+         
+          },{
+         
+         "nombre": "F 18 Super Hornet",
+         "imagen": "avion9.jpg",
+         "texto": " Es un avión cazabombardero, con capacidad de carga externa de 8 toneladas en once estaciones y armas convencionales o guiadas."
+         
+          },{
+         
+         "nombre": "MIG 21 Fishbed C",
+         "imagen": "avion10.jpg",
+         "texto": " Este es un avión de caza supersónico de fabricación rusa, utilizado por varios países alrededor del mundo."
+   }]
 }
