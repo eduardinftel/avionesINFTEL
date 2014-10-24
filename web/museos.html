@@ -18,6 +18,8 @@ and open the template in the editor.
 
         <!-- Add custom CSS here -->
         <link href="css/estilo-aviones.css" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="js/mapas.js"></script>
     </head>
     <body>
             <!-- Compartir en Facebook -->
@@ -71,7 +73,8 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-8">
                             <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.2000014675054!2d-4.480468999999947!3d36.66969200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fa275d76875d%3A0x25a06002ce4f1c2a!2sMuseo+de+Aeropuertos+y+Transporte+A%C3%A9reo+de+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1414074924261" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.2000014675054!2d-4.480468999999947!3d36.66969200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fa275d76875d%3A0x25a06002ce4f1c2a!2sMuseo+de+Aeropuertos+y+Transporte+A%C3%A9reo+de+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1414074924261" width="600" height="450" frameborder="0" style="border:0"></iframe>-->
+                            <div id="map-canvas"></div>
                         </div>
                         <div class="col-md-4">
                             <p>Phone: <strong>+31 26 333 7710</strong>
