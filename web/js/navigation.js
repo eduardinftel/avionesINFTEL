@@ -4,15 +4,9 @@
  * and open the template in the editor.
  */
 function nav(){
- 
-    var div = document.createElement('div');
 
-    div.className = 'navig';
-
-    div.innerHTML = '<nav class="navbar navbar-default" role="navigation">\
+    $("#idNav").html ('<nav class="navbar navbar-default" role="navigation">\
             <div class="container">\
-\
-\
                 <!-- Collect the nav links, forms, and other content for toggling -->\
                 <div class="collapse navbar-collapse navbar-ex1-collapse">\
                     <ul class="nav navbar-nav">\
@@ -35,8 +29,11 @@ function nav(){
                 <!-- /.navbar-collapse -->\
             </div>\
             <!-- /.container -->\
-        </nav>';
-
-    document.getElementById("idNav").appendChild(div);
+        </nav>');
     
 }
+
+ $(document).ready(nav);
+                
+            
+

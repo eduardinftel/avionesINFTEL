@@ -3,13 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 function footer(){
- 
-    var div = document.createElement('div');
-
-    div.className = 'footer';
-
-    div.innerHTML = '  <footer>\
+    $("#idFooter").html('  <footer>\
             <div class="container">\
                 <div class="row">\
                     <div class="col-lg-12 text-center">\
@@ -17,8 +13,8 @@ function footer(){
                     </div>\
                 </div>\
             </div>\
-        </footer>';
-
-    document.getElementById("idFooter").appendChild(div);
+        </footer>');
     
 }
+
+$(document).ready(footer);
