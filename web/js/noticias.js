@@ -6,25 +6,18 @@
 
 
 
-function nuevoContenido()
+function cargar_noticia()
 {
     var res="";
-    res += "<div class=\"col-lg-12\" >";
-    res += "<hr>";
-    res += "<h2 class=\"intro-text text-center\">Our <strong>news</strong>";
-    res += "</h2>";
-    res += "<hr>";
-    res += "</div>";
-    res += "<div class=\"col-lg-12 text-center\">";
-    res += "<h2>__TITULO__";
-    res += "<br>";
-    res += "<small>___FECHA___</small>";
-    res += "</h2>";
-    res += "<p>___TEXTO___ ";
-    res += "</p>";
-    res += "<a href=\"__ENLACE___\" class=\"btn btn-default btn-lg\">Read More</a>";
-    res += "<hr>";
-    res += "</div>";
+    res += "<img class=\"img-responsive img-border img-full\" src=\"img/slide-2.jpg\">";
+    res += "                   <h2>Reach for the sky!";
+    res += "                       <br>";
+    res += "                        <small>September 24th, 2014</small>";
+    res += "                   </h2>";
+    res += "                    <p>It is almost 75 years since they enjoyed their finest hour in the Battle of Britain.";
+    res += "                        And now, an Oxfordshire flying club has marked the momentous occasion by creating a classic Spitfire, albeit in a slightly smaller form than the World War Two version.</p>";
+    res += "                        <a href=\"http://www.warhistoryonline.com/war-articles/reach-sky-flying-instructor-wants-build-12-new-spitfires-mark-75th-anniversary-battle-britain.html\" class=\"btn btn-default btn-lg\">Read full article</a>";
+    res += "                    <hr>";
     document.getElementById("idNoticias").innerHTML = (res);
 
 }
