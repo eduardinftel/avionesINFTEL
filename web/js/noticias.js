@@ -8,7 +8,24 @@
 
 function nuevoContenido()
 {
-    document.getElementById("idNoticias").innerHTML = ("este es el nuevo contenido cambiado");
+    var res="";
+    res += "<div class=\"col-lg-12\" >";
+    res += "<hr>";
+    res += "<h2 class=\"intro-text text-center\">Our <strong>news</strong>";
+    res += "</h2>";
+    res += "<hr>";
+    res += "</div>";
+    res += "<div class=\"col-lg-12 text-center\">";
+    res += "<h2>__TITULO__";
+    res += "<br>";
+    res += "<small>___FECHA___</small>";
+    res += "</h2>";
+    res += "<p>___TEXTO___ ";
+    res += "</p>";
+    res += "<a href=\"__ENLACE___\" class=\"btn btn-default btn-lg\">Read More</a>";
+    res += "<hr>";
+    res += "</div>";
+    document.getElementById("idNoticias").innerHTML = (res);
 
 }
         
