@@ -5,12 +5,6 @@
  */
 function nav(){
     var res="";
-    res += "<nav class=\"navbar navbar-default\" role=\"navigation\" >";
-    
-    res += "<div class = \"container\" >";
-    res += "   < !-- Collect the nav links, forms, and other content for toggling -- >";
-    res += "< div class = \"collapse navbar-collapse navbar-ex1-collapse\" >";
-    res += "    < ul class = \"nav navbar-nav\" >";
     res += "    < li > < a href = \"index.html\" > Inicio < /a>";
     res += "    < /li>";
     res += "    < li > < a href = \"nosotros.html\" > Nosotros < /a>";
@@ -24,13 +18,7 @@ function nav(){
     res += "    < a href = \"museos.html\" > Museos < /a>";
     res += "    < /li>";
     res += "    < li > < a href = \"contact.html\" > Contacto < /a>";
-    res += "    < /li>";
-    res += "    < /ul>";
-    res += "    < /div>";
-    res += "    < !-- /.navbar-collapse -->";
-    res += "    < /div>";
-    res += "    < !-- /.container -->";
-    res += "        </nav>";
-    
+    res += "    < /li>";   
+    console.log(document.getElementById("idNav").innerHTML);
     document.getElementById("idNav").innerHTML = res;
 }
