@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 function cargarNoticia(titulo, texto, fecha, url) {
-    
+    fecha = fecha.substring(0, fecha.length - 10);
+    if(texto===null){
+        texto="News item only available for NY Times subscribers";
+    }
         $("#idNoticias").append('<div class="col-lg-12 text-center">\
                         <h2>' + titulo + '\
                             <br>\
@@ -22,7 +25,8 @@ var arrayNoticias;
 var i;
 
 $(document).ready(function () {
-    $.getJSON("http://api.nytimes.com/svc/search/v2/articlesearch.json?q=Supermarine+Spitfire&api-key=b1e8bdbc3fa9841be66f9cb3bab690b7%3A4%3A70045411", function (result) {
+    
+    $.getJSON("http://api.nytimes.com/svc/search/v2/articlesearch.json?q=Spitfire+Supermarine&begin_date=19300101&end_date=19600101&api-key=b1e8bdbc3fa9841be66f9cb3bab690b7%3A4%3A70045411", function (result) {
         arrayNoticias = result.response.docs;
         $("#idNoticias").html('<div class="col-lg-12 text-center">\
                     </div>');

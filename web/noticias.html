@@ -2,28 +2,27 @@
 <html lang="en">
 
     <head>
+
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="aviones, html, css, html5, css3, bootstrap, inftel, js, javascript, nytimes api, google maps">
         <meta name="author" content="">
 
         <title>Aviones con HTML y CSS</title>
 
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
         <link href="css/estilo-aviones.css" rel="stylesheet">
-        <!-- Add custom CSS here -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-       
-        <!-- JS que cargan el contenido de la página-->
-        <script type="text/javascript" charset="UTF-8" src="js/navigation.js"></script>
-        <script type="text/javascript" charset="UTF-8" src="js/footer.js"></script>
-        <script type="text/javascript" charset="UTF-8" src="js/noticias.js"></script>
-        
+
+        <!-- Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
     </head>
-
     <body>
-
         <div class="brand">Aviones CSS</div>
         <div class="address-bar">CSS3 | HTML5 | Plantilla con Bootstrap | Octubre 2014</div>
 
@@ -34,7 +33,19 @@
 
             <div class="row">
                 <div class="box">
+
+                    <form id="my_NYT_search_form">
+                        <center>    
+                            Search <a href="http://nytimes.com" target="_blank">NYTimes</a> news for: <INPUT type="text" name="search_keywords">
+                            Filter by date: <INPUT type="date" name="begin_date">
+                            to <INPUT type="date" name="end_date"><br><br>
+
+                            <button type="submit" value="search_now">Redefine search</button>
+
+                        </center>
+                    </form>      
                     
+
                     <div class="col-lg-12">
                         <hr>
                         <h2 class="intro-text text-center">NYTimes <strong>aviation news</strong>
@@ -43,12 +54,12 @@
                     </div>
                     <div id="idNoticias">
                         <div class="col-lg-12 text-center">
-                        <h2>Cargando noticias...
-                        </h2>
-                    </div>
+                            <h2>Cargando noticias...
+                            </h2>
+                        </div>
                         <!-- read via JSON/GSON via JS -->
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -56,12 +67,18 @@
         <!-- /.container -->
 
         <div id="idFooter">
-            <!-- load footer from js -->
+            <!-- footer cargado por js -->
         </div>
 
-        <!-- JavaScript imports-->
-        
+        <!-- JavaScript -->
+        <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/navigation.js"></script>
+        <script src="js/noticias.js"></script>
+
+
     </body>
 
 </html>
+
