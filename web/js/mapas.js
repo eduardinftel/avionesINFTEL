@@ -8,7 +8,7 @@
 var map;
 function initialize() {
     var mapOptions = {
-        zoom: 6
+        zoom: 15
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
@@ -22,7 +22,7 @@ function initialize() {
             var infowindow = new google.maps.InfoWindow({
                 map: map,
                 position: pos,
-                content: 'Current  location.'
+                content: 'Usted está aquí'
             });
 
             map.setCenter(pos);
