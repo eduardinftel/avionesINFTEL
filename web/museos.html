@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<head>
+        <title>Aviones con HTML y CSS</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="aviones, html, css, html5, css3, bootstrap, inftel, js, javascript, nytimes api, google maps">
-    <meta name="author" content="">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
 
-    <title>Aviones con HTML y CSS</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/estilo-aviones.css" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-    
-</head>
+        <!-- Add custom CSS here -->
+        <link href="css/estilo-aviones.css" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="js/mapas.js"></script>
+    </head>
     <body>
             <!-- Compartir en Facebook -->
 <!--        <div id="fb-root"></div>
@@ -39,8 +38,30 @@
         <div class="brand">Museos</div>
         <div class="address-bar">CSS3 | HTML5 | Plantilla con Bootstrap | Octubre 2014</div>
 
-        <div id="idNav"><!--insertar nav -->
-        </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio</a>
+                        </li>
+                        <li><a href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li><a href="noticias.html">Noticias</a>
+                        </li>
+                        <li>
+                            <a href="aviones.html">Aviones</a>
+                        </li>
+                        <li>
+                            <a href="museos.html">Museos</a>
+                        </li>
+                        <li><a href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
                 
                 <div class="row">
                     <div class="box">
@@ -52,7 +73,8 @@
                         </div>
                         <div class="col-md-8">
                             <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.2000014675054!2d-4.480468999999947!3d36.66969200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fa275d76875d%3A0x25a06002ce4f1c2a!2sMuseo+de+Aeropuertos+y+Transporte+A%C3%A9reo+de+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1414074924261" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.2000014675054!2d-4.480468999999947!3d36.66969200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fa275d76875d%3A0x25a06002ce4f1c2a!2sMuseo+de+Aeropuertos+y+Transporte+A%C3%A9reo+de+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1414074924261" width="600" height="450" frameborder="0" style="border:0"></iframe>-->
+                            <div id="map-canvas"></div>
                         </div>
                         <div class="col-md-4">
                             <p>Phone: <strong>+31 26 333 7710</strong>
@@ -67,20 +89,18 @@
                 </div>
             </div>
             <!-- /.container -->
-        
+        </nav>
     
-        <div id="idFooter">
-        <!-- footer cargado por js -->
-    </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>Copyright &copy; nuzotroh 2014</p>
+                        <p>Un avión moviéndose por CSS</p>
+                    </div>
 
-    <!-- JavaScript -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/footer.js"></script>
-    <script src="js/navigation.js"></script>
-    
-
-</body>
-
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
-
