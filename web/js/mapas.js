@@ -19,13 +19,59 @@ function initialize() {
             var pos = new google.maps.LatLng(position.coords.latitude,
                     position.coords.longitude);
 
-            var infowindow = new google.maps.InfoWindow({
-                map: map,
-                position: pos,
-                content: 'Usted está aquí'
+//            var infowindow = new google.maps.InfoWindow({
+//                map: map,
+//                position: pos,
+//                content: 'Usted está aquí'
+//            });
+//
+//            map.setCenter(pos);
+            var i;
+            var ciudad;
+            $.getJSON("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function (result) {
+
+                var resultado = result.results;
+
+
+                for (i in resultado) {
+                    if (resultado[i].types[0] == "locality") {
+                        ciudad = resultado[i].formatted_address;
+                        break;
+                    }
+                }
+
+                var marker = new google.maps.Marker({
+                    map: map,
+                    title: 'Museo'
+                });
+                
+                
+//                var searchBox = new google.maps.places.SearchBox(
+//    /** @type {HTMLInputElement} */('museo avion, '+ciudad));
+
+                new google.maps.Geocoder().geocode({'address': 'Museo transporte aereo ' + ciudad}, function (results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        if (!marker) {
+                            marker = new google.maps.Marker({
+                                map: map,
+                                draggable: true
+                            });
+
+                            //google.maps.event.addListener(marker, 'click', showLocation);
+                        }
+
+                        marker.setPosition(results[0].geometry.location);
+                        map.setCenter(results[0].geometry.location);
+                        map.setZoom(15);
+                        alert(results[0].formatted_address)
+                        
+                    } else {
+                        alert("Geocode was not successful for the following reason: " + status);
+                    }
+                });
             });
 
-            map.setCenter(pos);
+
         }, function () {
             handleNoGeolocation(true);
         });
