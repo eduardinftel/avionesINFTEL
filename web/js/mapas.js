@@ -26,15 +26,26 @@ function initialize() {
 //            });
 //
 //            map.setCenter(pos);
+
+ //Sacar nombre del sitio con google place    
+
+//https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=36.715352,-4.465244&radius=50000&keyword=aviation+museum&sensor=false&key=AIzaSyBgR-YI1UM_5H2oEa2b92vx2M8VugLiIEs
+            $.getJSON("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + position.coords.latitude + "," + position.coords.longitude + "&radius=50000&keyword=aviation+museum&sensor=false&key=AIzaSyBgR-YI1UM_5H2oEa2b92vx2M8VugLiIEs", function (result2) {
+
+                var resultado2 = result2.results;
+                var nombre = resultado2.name;
+                
+               
+                    });
             var i;
             var ciudad;
             $.getJSON("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function (result) {
-
+               
                 var resultado = result.results;
 
 
                 for (i in resultado) {
-                    if (resultado[i].types[0] == "locality") {
+                    if (resultado[i].types[0] == "locality" || resultado[i].types[0] == "administrative_area_level_3") {
                         ciudad = resultado[i].formatted_address;
                         break;
                     }
@@ -56,16 +67,14 @@ function initialize() {
                                 map: map,
                                 draggable: true
                             });
-
-                            //google.maps.event.addListener(marker, 'click', showLocation);
                         }
 
                         marker.setPosition(results[0].geometry.location);
                         map.setCenter(results[0].geometry.location);
                         map.setZoom(15);
-                        alert(results[0].formatted_address)
+                        $("#direccion").html(results[0].formatted_address);
                         
-                    } else {
+    } else {
                         alert("Geocode was not successful for the following reason: " + status);
                     }
                 });

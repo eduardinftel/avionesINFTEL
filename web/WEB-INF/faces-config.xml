@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+
+    <navigation-rule>
+        <from-view-id>index.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>INDEX_ADMIN</from-outcome>
+            <to-view-id>/admin/index_admin.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>INDEX_USER</from-outcome>
+            <to-view-id>/user/index_user.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>FAIL</from-outcome>
+            <to-view-id>/error/error_login.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>REGISTER</from-outcome>
+            <to-view-id>/user/register2.xhtml</to-view-id>
+        </navigation-case>        
+    </navigation-rule>
+    
+     <navigation-rule>
+         <from-view-id>/error/errorCode.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>ERRORCODE</from-outcome>
+            <to-view-id>/user/index_user.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/admin/listCachesAdmin.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>INFO_CACHE</from-outcome>
+            <to-view-id>/user/cache/infoCache.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/user/cache/listAvailableCaches.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>INFO_CACHE</from-outcome>
+            <to-view-id>/user/cache/infoCache.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>TREASUREHUNTER</from-outcome>
+            <to-view-id>/user/index_user.xhtml</to-view-id>
+        </navigation-case>
+         <navigation-case>
+            <from-outcome>ALLCACHES</from-outcome>
+            <to-view-id>/user/cache/listAvailableCaches.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    
+    <navigation-rule>
+        <from-view-id>/admin/index_admin.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>USERSLIST</from-outcome>
+            <to-view-id>/admin/usersList.xhtml</to-view-id>
+        </navigation-case>       
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/admin/usersList.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>SHOWUSER</from-outcome>
+            <to-view-id>/admin/showUser.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>CREATEUSER</from-outcome>
+            <to-view-id>/admin/createUser.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>EDITUSER</from-outcome>
+            <to-view-id>/admin/editUser.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>INDEXADMIN</from-outcome>
+            <to-view-id>/admin/index_admin.xhtml</to-view-id>
+        </navigation-case>          
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/admin/editUser.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>USERSLIST</from-outcome>
+            <to-view-id>/admin/usersList.xhtml</to-view-id>
+        </navigation-case>       
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/admin/showUser.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>USERSLIST</from-outcome>
+            <to-view-id>/admin/usersList.xhtml</to-view-id>
+        </navigation-case>       
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/admin/createUser.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>USERSLIST</from-outcome>
+            <to-view-id>/admin/usersList.xhtml</to-view-id>
+        </navigation-case>       
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/user/register2.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>INDEX</from-outcome>
+            <to-view-id>index.xhtml</to-view-id>
+        </navigation-case>       
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/user/index_user.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>COLABORATOR</from-outcome>
+            <to-view-id>/user/cache/colaboratorCaches.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>ALLCACHES</from-outcome>
+            <to-view-id>/user/cache/listAvailableCaches.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>INSERTCODE</from-outcome>
+            <to-view-id>/user/logs/insertCodeCache.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>SHOWCACHE</from-outcome>
+            <to-view-id>/user/cache/infoCache.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>INSERTPROBLEM</from-outcome>
+            <to-view-id>/user/logs/insertProblemLog.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/user/cache/colaboratorCaches.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>TREASUREHUNTER</from-outcome>
+            <to-view-id>/user/index_user.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>CREATECACHE</from-outcome>
+            <to-view-id>/user/cache/createCache.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>EDITCACHE</from-outcome>
+            <to-view-id>/user/cache/editCache.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>COLABORATOR</from-outcome>
+            <to-view-id>/user/cache/colaboratorCaches.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>ERROR_BE_COLABORATOR</from-outcome>
+            <to-view-id>/error/error_be_colaborator.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>SHOWCACHE</from-outcome>
+            <to-view-id>/user/cache/infoCache.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/user/cache/createCache.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>COLABORATOR</from-outcome>
+            <to-view-id>/user/cache/colaboratorCaches.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/user/cache/editCache.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>COLABORATOR</from-outcome>
+            <to-view-id>/user/cache/colaboratorCaches.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/user/logs/insertCodeCache.xhtml</from-view-id>
+         <navigation-case>
+            <from-outcome>ALLCACHES</from-outcome>
+            <to-view-id>/user/index_user.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>ERRORCODE</from-outcome>
+            <to-view-id>/error/errorCode.xhtml</to-view-id>
+        </navigation-case>
+        </navigation-rule>
+        
+        <navigation-rule>
+            <from-view-id>/user/logs/insertProblemLog.xhtml</from-view-id>
+             <navigation-case>
+            <from-outcome>ALLCACHES</from-outcome>
+            <to-view-id>/user/index_user.xhtml</to-view-id>
+             </navigation-case>
+             
+        </navigation-rule>
+</faces-config>
