@@ -31,9 +31,10 @@ function initialize() {
 
 //https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=36.715352,-4.465244&radius=50000&keyword=aviation+museum&sensor=false&key=AIzaSyBgR-YI1UM_5H2oEa2b92vx2M8VugLiIEs
             $.getJSON("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + position.coords.latitude + "," + position.coords.longitude + "&radius=50000&keyword=aviation+museum&sensor=false&key=AIzaSyBgR-YI1UM_5H2oEa2b92vx2M8VugLiIEs", function (result2) {
-
                 var resultado2 = result2.results;
-                var nombre = resultado2.name;
+                
+                var nombre = resultado2[0].name;
+                
                 
                
                     });
@@ -42,10 +43,11 @@ function initialize() {
             $.getJSON("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function (result) {
                
                 var resultado = result.results;
-
+                $("#nombreMuseo").html(resultado);
+              
 
                 for (i in resultado) {
-                    if (resultado[i].types[0] == "locality" || resultado[i].types[0] == "administrative_area_level_3") {
+                    if (resultado[i].types[0] === "locality" || resultado[i].types[0] === "administrative_area_level_3") {
                         ciudad = resultado[i].formatted_address;
                         break;
                     }
@@ -61,7 +63,7 @@ function initialize() {
 //    /** @type {HTMLInputElement} */('museo avion, '+ciudad));
 
                 new google.maps.Geocoder().geocode({'address': 'Museo transporte aereo ' + ciudad}, function (results, status) {
-                    if (status == google.maps.GeocoderStatus.OK) {
+                    if (status === google.maps.GeocoderStatus.OK) {
                         if (!marker) {
                             marker = new google.maps.Marker({
                                 map: map,
