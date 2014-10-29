@@ -34,17 +34,15 @@ function initialize() {
                 var resultado2 = result2.results;
                 
                 var nombre = resultado2[0].name;
-                
-                
+                $("#nombreMuseo").html(nombre);
+                //ale   rt(nombre);
                
                     });
             var i;
             var ciudad;
             $.getJSON("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function (result) {
                
-                var resultado = result.results;
-                $("#nombreMuseo").html(resultado);
-              
+                var resultado = result.results;              
 
                 for (i in resultado) {
                     if (resultado[i].types[0] === "locality" || resultado[i].types[0] === "administrative_area_level_3") {
